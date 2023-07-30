@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1512px;
+    height: 70px;
+    background-color: rgba(26, 188, 156, 1);
+   
+}
+
+.wrapper { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a:not(:last-child) {
+    margin-right: 15px;   
+}
+
+.sl {
+    margin-right: 15px;
+}
+
+.office {
+    display: flex;
+}
+
+
+
+.aboutUs {
+    width: auto;
+    height: 694px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 65px;
+}
+
+.discription {
+    width: 620px;
+    height: 182px;
+}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.projects {
+    width: 1512px;
+    background-color: #DCFFEB;
+    padding: 125px 0;
+}
+
+.container {
+    margin-left: 3%;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.galery {
+    display: flex;
+    gap: 35px;
+}
+
+
+
+/*футер*/
+h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 85px 0 55px 70px;
+}
+
+.information {
+    display: flex;
+    gap: 35px;
+    margin: 0 70px;
+    margin-bottom: 70px;
+}
+
+.information-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 200px;
+}
+
+.information-logo {
+    margin-bottom: 25px;
+}
+
+.contacts-title {
+    color: #999;
+    text-align: center;
+    font-size: 24px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.contacts-information {
+    color: #000;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#mail {
+    color: #F7654A;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
